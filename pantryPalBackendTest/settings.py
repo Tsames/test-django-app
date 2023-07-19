@@ -13,12 +13,12 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from pathlib import Path
 
 # Load Environment Variables in Dev Environment
-from os import getenv
-from dotenv import load_dotenv
+# from os import getenv
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
-secretKey = getenv('SECRET_KEY')
+# secretKey = getenv('SECRET_KEY')
 ################################################
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
