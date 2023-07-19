@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-test"
+version = "0.1.0"
+description = ""
+authors = ["Tom Ames <tsames1@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
